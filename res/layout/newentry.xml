@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="500dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="New Entry"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#df00"
+        android:textStyle="bold|italic" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="#000"
+        android:layout_height="3dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/site"
+        android:layout_marginTop="10dp"
+        android:minHeight="40dp"
+        android:hint="Site"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_marginTop="10dp"
+        android:minHeight="40dp"
+        android:hint="Username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:minHeight="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/password"
+        android:minHeight="40dp"
+        android:hint="Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/extras"
+        android:minHeight="40dp"
+        android:hint="Extra Like Security Question &amp; Answer"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:id="@+id/addnewentry"/>
+</LinearLayout>

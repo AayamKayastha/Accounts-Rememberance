@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1009541328756",
+    "firebase_url": "https://accounts-remembrance.firebaseio.com",
+    "project_id": "accounts-remembrance",
+    "storage_bucket": "accounts-remembrance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009541328756:android:646cb636c5d36e0f",
+        "android_client_info": {
+          "package_name": "com.example.aayamk.accountsrememberance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009541328756-ks56tjuchqqs6tq7lejkmdca4qkd4lao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZc3zmo-WJfYOaZxmduygwwjAc765XcDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
